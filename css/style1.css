@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width:966px) {
+  .container{
+   font-size: 13px;
+  padding: 13px 30px;
+}
+#logo img{
+    width: 80px;
+   height: 40px;
+}
+}
+@media screen and (max-width:848px) {
+      .container #header-nav{
+        font-size: 10px;
+         padding: 8px 15px;
+      }
+      #item h3 , span{
+
+      }
+}
+
+@media screen and (max-width:988px) {
+      .container2 #header-nav{
+        font-size: 10px;
+         padding: 8px 15px;
+      }
+                     
+}
+
+@media screen and (max-width:1123px) {
+  #right .paraghraph{
+    width: 45%; 
+}
+    #left img{
+        
+    }
+}
+
+
+@media screen and (max-width:1165px){
+    #item{
+    gap: 250px;
+   font-size: 14px;
+  }
+#item span{
+    font-size: 14px;
+  }
+#item h2{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width:988px) {
+    #item{
+    gap: 200px;
+   font-size: 13px;
+}
+#item span{
+    font-size: 13px;
+}
+#item h2{
+    font-size: 13px;
+}
+}
+@media screen and (max-width:1183px) {
+    #photo2 .picture{
+    width: 20%;
+}
+  
+}
+@media screen and (max-width:950px) {
+  .photo{
+    flex-flow: wrap;
+  }
+  #left{
+    width: 100%;
+}
+  #right{
+    width: 100%;
+  }
+    .container{
+   font-size: 10px;
+  padding: 10px 20px;
+}
+#logo img{
+    width: 50px;
+   height: 20px;
+}
+#link a{
+    font-size: 10px;
+}
+#social-icon i{
+   margin-left: 10px;
+   font-size: 8px; 
+}
+  #item{
+    gap: 100px;
+   font-size: 12px;
+}
+#item span{
+    font-size: 12px;
+}
+#item h2{
+    font-size: 12px;
+    }
+#photo2{
+    flex-flow: wrap;
+    gap: 10px;
+    }
+  #photo2 .picture{
+    width: 45%;
+    }
+  #inside-contact{
+    display: flex;
+    flex-direction: column;
+  }
+  #contact-form .address{
+    width: 100%;
+    margin: 60px;
+    padding: 40px;
+}
+#Contact-sign{
+  width: 80%;
+}
+#footer{
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+.img img{
+    width: 48%;
+    height: 300px;
+}
+.footer-link{
+     width: 48%;
+}
+.footer-contact{
+  width: 48%;
+}
+.footer-list{
+   width: 48%;
+}
+}
+@media screen and (max-width:700px) {
+    .container{
+       flex-flow: wrap;
+
+    }
+    #item{
+        flex-flow: wrap;
+         gap:100px;
+    }
+    #item span{
+         text-align: center;
+    }
+    #item h2{
+         text-align: center;
+    }
+      #photo2 .picture{
+    width: 40%;
+}
+}
+  
